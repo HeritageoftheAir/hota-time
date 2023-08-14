@@ -63,8 +63,6 @@ defusedxml==0.7.1
     # via nbconvert
 entrypoints==0.4
     # via altair
-exceptiongroup==1.1.1
-    # via cattrs
 executing==1.2.0
     # via stack-data
 fastjsonschema==2.16.3
@@ -132,11 +130,10 @@ jupyter-core==5.2.0
     #   nbformat
     #   notebook
 jupyter-events==0.6.3
+    # via jupyter-server-fileid
+jupyter-server==1.24.0
     # via
-    #   jupyter-server
-    #   jupyter-server-fileid
-jupyter-server==2.4.0
-    # via
+    #   -r requirements.in
     #   jupyter-server-fileid
     #   jupyterlab
     #   jupyterlab-server
@@ -144,8 +141,6 @@ jupyter-server==2.4.0
     #   notebook-shim
 jupyter-server-fileid==0.8.0
     # via jupyter-server-ydoc
-jupyter-server-terminals==0.4.4
-    # via jupyter-server
 jupyter-server-ydoc==0.6.1
     # via jupyterlab
 jupyter-ydoc==0.2.3
@@ -213,7 +208,6 @@ packaging==23.0
     #   trove-query-parser
 pandas==1.5.3
     # via
-    #   -r requirements.in
     #   altair
     #   trove-newspaper-harvester
 pandocfilters==1.5.0
@@ -310,16 +304,13 @@ stack-data==0.6.2
 terminado==0.17.1
     # via
     #   jupyter-server
-    #   jupyter-server-terminals
     #   nbclassic
     #   notebook
 tinycss2==1.2.1
     # via nbconvert
-tomli==2.0.1
-    # via jupyterlab
 toolz==0.12.0
     # via altair
-tornado==6.2
+tornado==6.3.3
     # via
     #   ipykernel
     #   jupyter-client
